@@ -1,0 +1,436 @@
+*{
+    padding: 0px;
+    margin: 0%;
+}
+body{
+    background-color:   #eaeaea ;
+    /* transition: all 1s; */
+}
+.img{
+    /* padding: 10px; */
+    margin: 15px;
+    box-shadow: 0px 0px 10px 4px #ffffff;
+    /* float: left;
+    position: relative;
+    left: 15px;
+    right: 15px;
+    top: 25px;
+    
+    bottom: 15px; */
+    width: 120px;
+    /* height: 200px; */
+    border: 1px solid white;
+    transform: rotate(270deg);
+}
+.flex1{
+
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #009688;
+    border-top: 1px solid #eaeaea;
+    /* border-radius: 30px; */
+    /* width: 98%; */
+
+    /* margin: 0% auto; */
+    /* margin-right: 200px; */
+    height: 70px;
+    /* box-shadow: 1% 1% 1% 4% black; */
+    /* box-shadow: 10px 1px 10px 4px black; */
+    /* background-color: #eaeaea; */
+    color: #009688;
+}
+
+.one{
+    padding: 0%;
+    color: #ebeef2;
+    margin: 15px;
+    /* float: left;
+    position: relative;
+    left: 35px;
+    bottom: 5px; */
+    
+}
+
+.nav ul{
+    /* box-shadow: 2px 2px 2px 2px black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.nav ul li{
+    font-size: 25px;
+    margin: 30px;
+}
+.nav ul li a{
+    color: red;
+    text-decoration: none;
+}
+.clear{
+    padding: 10px;
+    background-color: #ececec;
+}
+.pera1 {
+    padding: 20px;
+    font-size: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    /* margin: 0px; */
+    background-color: #FAFAFA;
+    /* width: 40%; */
+    display: flex;
+    /* width: 1000px; */
+    flex-direction: column;
+    /* margin-right: 200px; */
+    /* background-color: red;
+        border: 1px solid black; */
+    /* border-radius: 20px solid black; */
+
+    border: 2px solid black;
+}
+.pera1>h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.pera1>p{
+    text-align: justify;
+    padding-top: 20px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    /* letter-spacing: 2px; */
+    margin: 0px auto;
+}
+.images{ 
+    background-color: red;
+    margin: 0px;
+    border-radius: 40px;
+    /* border: 4px solid red; */
+    display: flex;
+    /* margin: 10px; */
+    justify-content: center;
+}
+.images>img{
+    
+    margin: 10px;
+}
+video{
+    /* float: left; */
+    width: 99%;
+    margin: 0px 5px;
+    border-radius: 40px;
+    border: 2px solid black;
+    height: 500px;
+    /* background-color: skyblue; */
+}
+hr{
+    /* clear: both; */
+}
+.footer{
+    /* background-color: saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009688;
+    height: 100px;
+    
+}
+
+.footer>ul{
+    box-sizing: border-box;
+}
+
+.footer>ul>li{
+    margin: 20px;
+    display: inline;
+    /* clear: both; */
+}
+.secondcol{
+    /* float: right; */
+    width: 99%;
+    margin: 0px 10px;
+    /* margin-top: 0px; */
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    background-color: skyblue;
+    font-size: 25px;
+    text-align: center;
+}
+.secondcol>input{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.secondcol>h1{
+    text-align: center;
+}
+.last{
+    position: relative;
+    left: 25%;
+    
+}
+button{
+    /* background-color: greenyellow; */
+    color: red;
+    font-size: 25px;
+    width: 100px;
+    border: none;
+    background-color: inherit;
+    float: right;
+    display: flex;
+    justify-content: end;
+    /* margin-left: 50%; */
+}
+.images>img:hover{
+    width: 370px;
+    height: 420px;
+    transition: all 1s;
+}
+
+.images:hover{
+    background-color: skyblue;
+    transition: all 1s;
+}
+.h1{
+    font-size: 40px;
+    text-decoration: underline red.;
+}
+.My-skills{
+    margin: 20px;
+    box-shadow: 1px 0px 10px 4px#b9b8b8;
+    height:100%;
+    width: 450px;
+    background-color: #fff;
+}
+.My-skills>h1{
+    position: relative;
+    top: -50px;
+    color: wheat;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 5px;
+
+    /* margin: 2px; */
+}
+.my-skill-structure{
+    border-radius: 10px;
+    background-color: #dedede;
+    width: 420px;
+    height: 25px;
+}
+.my-skill-structure2{
+    text-align: center;
+    color: white;
+    padding: 2px;
+
+    border-radius: 10px;
+    background-color: #009688;
+    width: 350px;
+    /* height: 100%; */
+}
+.my-skill-structure3{
+    text-align: center;
+    color: white;
+    padding: 2px;
+
+    border-radius: 10px;
+    background-color: #009688;
+    width: 150px;
+    /* height: 100%; */
+}
+.my-skill-structure4{
+    text-align: center;
+    color: white;
+    padding: 2px;
+
+    border-radius: 10px;
+    background-color: #009688;
+    width: 280px;
+    /* height: 100%; */
+}
+.my-skill-structure5{
+    text-align: center;
+    color: white;
+    padding: 2px;
+
+    border-radius: 10px;
+    background-color: #009688;
+    width: 200px;
+    /* height: 100%; */
+}
+.my-skill-structure22{
+    text-align: center;
+    color: white;
+    /* padding: 2px; */
+
+    border-radius: 10px;
+    background-color: #009688;
+    width: 300px;
+    height: 100%;
+}
+.my-skill-structure23{
+    text-align: center;
+    color: white;
+    /* padding: 2px; */
+
+    border-radius: 10px;
+    background-color: #009688;
+    width: 200px;
+    height: 100%;
+}
+.main{
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+}
+.work{
+        margin: 20px;
+        box-shadow: 1px 0px 10px 4px#b9b8b8;
+        /* height:100%; */
+        width: 800px;
+        background-color: #fff;
+        padding: 20px;
+    
+}
+
+.work>h1{
+    position: relative;
+    left: -20px;
+    color: #757575;
+    /* margin: 10px;margin-left: 0%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.work>h2{
+    color: #666;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.work>p{
+    letter-spacing: 1px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* color: #009688; */
+}
+
+/* .work>ul{
+    color: red;
+} */
+.work>ul>li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    /* color: black; */
+    letter-spacing: 1px;
+}
+
+.subheading{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #009688;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.work>p{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.skills{
+    margin: 10px;
+    border-top: 1px solid #c7c7c7;
+}
+.skills>h2{
+    color: #757575;
+    margin: 4px;
+
+}
+.current{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width:65px;
+    color: white;
+    padding: 2px;
+    /* height:25px; */
+    border-radius: 5px;
+    background-color: #009688;
+}
+.video2{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+    border: none;
+}
+.para>img{
+    margin: 2px 4px;
+    /* margin-top: 20px; */
+    width: 22px;
+    position: relative;
+    top: 6px;
+    height: 22px;
+    filter: hue-rotate(410deg);
+}
+
+/* .phone{
+
+    padding-top: 10px;
+    margin: 0px;
+} */
+.skillslogo{
+    width: 50px;
+    position: relative;
+    top: 6px;
+    height: 30px;
+    
+}
+.language{
+    width: 20px;
+    position: relative;
+    top: 2px;
+    height: 20px;
+    filter: hue-rotate(410deg);
+}
+.sootcase{
+    width: 55px;
+    position: relative;
+    top: 10px;
+    /* left: 20px; */
+    filter: hue-rotate(410deg);
+    height: 55px;
+
+}
+.calender{
+    width: 25px;
+    position: relative;
+    top: 4px;
+    height: 20px;
+
+}
+.skillslogo2{
+    /* margin-left: 0%; */
+    width: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+
+}
+.sootcase2{
+    margin-left: 20px;
+}
